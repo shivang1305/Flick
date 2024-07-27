@@ -26,16 +26,16 @@
 			"justifyContent": "center"
 		}
 	},
-	"text-blue-800": {
+	"text-3xl": {
 		"style": {
-			"--tw-text-opacity": 1,
-			"color": "rgb(30 64 175 / var(--tw-text-opacity))"
+			"fontSize": 30,
+			"lineHeight": 36
 		}
 	},
-	"text-yellow-500": {
+	"text-orange-500": {
 		"style": {
 			"--tw-text-opacity": 1,
-			"color": "rgb(234 179 8 / var(--tw-text-opacity))"
+			"color": "rgb(249 115 22 / var(--tw-text-opacity))"
 		}
 	}
 }
