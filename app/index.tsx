@@ -1,15 +1,13 @@
-import { Text, View } from "react-native";
+import { TailwindProvider } from "tailwind-rn";
+import utilities from "../tailwind.json";
+import MyComp from "@/components/MyComp";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Hello from react native</Text>
-    </View>
+    <TailwindProvider
+      utilities={utilities}
+      colorScheme={"dark"}
+      children={<MyComp />}
+    />
   );
 }
