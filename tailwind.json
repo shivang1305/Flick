@@ -1,4 +1,14 @@
 {
+	"mt-2": {
+		"style": {
+			"marginTop": 8
+		}
+	},
+	"mb-5": {
+		"style": {
+			"marginBottom": 20
+		}
+	},
 	"flex": {
 		"style": {
 			"display": "flex"

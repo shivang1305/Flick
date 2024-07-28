@@ -1,11 +1,14 @@
 import { router } from "expo-router";
 import { View, Text, Button } from "react-native";
 
-export default function Index() {
+const index = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-3xl text-red-600">MyComp</Text>
-      <Button onPress={() => router.push("/home")} title="Home Button" />
+      <Text className="text-3xl text-red-600 mb-5">Flick</Text>
+      <Button onPress={() => router.push("login")} title="Login Screen" />
+      <Button onPress={() => router.push("chat")} title="Chat Screen" />
     </View>
   );
-}
+};
+
+export default index;
